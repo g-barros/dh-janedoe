@@ -41,20 +41,18 @@ a {
     text-align: center;
 }
 
-.contato {
+.contatobloco {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
 }
 
-.email {
+.contato {
     text-decoration: underline;
     color: blue;
 }
 
 .tel {
-    text-decoration: underline;
-    color: blue;
     border-bottom: solid 2px rgb(185,185,185);
     padding-bottom: 15px;
 }
