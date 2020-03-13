@@ -12,7 +12,7 @@ html {
     padding: 0;
 }
 
-li {
+#menu li {
     display: inline-block;
     margin: 10px;
 }
@@ -29,6 +29,46 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.music {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.contato {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.email {
+    text-decoration: underline;
+    color: blue;
+}
+
+.tel {
+    text-decoration: underline;
+    color: blue;
+    border-bottom: solid 2px rgb(185,185,185);
+    padding-bottom: 15px;
+}
+
+blockquote {
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 #rodape {
