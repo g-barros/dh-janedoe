@@ -6,13 +6,13 @@ html {
     text-align: center;
 }
 
-#menu {
+header nav ul {
     list-style-type: none;
     text-align: center;
     padding: 0;
 }
 
-#menu li {
+header nav ul li {
     display: inline-block;
     margin: 10px;
 }
@@ -45,6 +45,9 @@ a {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
+    overflow: hidden;
+    /* box-sizing: border-box; */
+    
 }
 
 .contato {
@@ -61,17 +64,44 @@ blockquote {
     font-weight: bold;
 }
 
-img {
-    display: block;
+.about img {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
 }
 
-#rodape {
+footer {
     font-weight: bold;
     text-align: center;
     background-color: #e6e6e6;
     padding: 5px;
+}
+
+.formulario form * {
+    display: block;
+    
+}
+    
+
+.formulario form, iframe {
+    display: inline-block;
+    width: 49%;
+}
+
+.contatos {
+    max-width: 80%;
+    margin-top: 50px;
+    float: left;
+    border-top: solid 2px rgb(185,185,185);
+    padding-top: 15px;
+}
+
+button {
+    background-color: orangered;
+    color: white;
+    width: 75px;
+    height: 30px;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
 }
